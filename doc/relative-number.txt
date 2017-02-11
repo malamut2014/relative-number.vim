@@ -1,0 +1,57 @@
+*vim-relative-number.txt*   Vim relative number settings
+
+==============================================================================
+CONTENTS                                               *RelativeNumber-contents*
+
+    1. Usage ........................... |RelativeNumberUsage|
+    2. Configuration ................... |RelativeNumberConfig|
+    3. Bugs ............................ |RelativeNumberBugs|
+    4. Contributing .................... |RelativeNumberContributing|
+    5. Changelog ....................... |RelativeNumberChangelog|
+
+==============================================================================
+USAGE                                                      *RelativeNumberUsage*
+
+    :RelativeNumberToggle
+
+Alternatively you may also use the '<Leader>n' mapping, or the defined mapping
+in 'g:relative_number_map'
+
+==============================================================================
+CONFIGURATION                                             *RelativeNumberConfig*
+
+These options should be set in your .vimrc file.
+
+g:relative_number_map                                 *RelativeNumberConfig-map*
+    Default mapping
+
+    Use this option to configure the default mapping >
+        let g:relative_number_map = '<Leader>n'
+<
+    Alternatively the mapping can be assigned directly to the <Plug> action >
+        map <Leader>n <Plug>RelativeNumber
+<
+==============================================================================
+BUGS                                                        *RelativeNumberBugs*
+
+If you find a bug please post it on the issue tracker:
+
+    https://github.com/chilicuil/vim-relative-number/issues
+
+==============================================================================
+CONTRIBUTING                                        *RelativeNumberContributing*
+
+I created this plugin while waiting for a meeting, it does what I need, if you
+require additional features please fork the project and send me your pull
+request.
+
+GitHub: http://github.com/chilicuil/vim-relative-number/
+
+==============================================================================
+CHANGELOG                                              *RelativeNumberChangelog*
+
+v0.0.1
+    * Initial release.
+
+==============================================================================
+" vim: ft=help
