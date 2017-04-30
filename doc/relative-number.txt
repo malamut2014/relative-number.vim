@@ -1,4 +1,4 @@
-*vim-relative-number.txt*   Vim relative number settings
+*relative-number.vim.txt*   Vim relative number settings
 
 ==============================================================================
 CONTENTS                                               *RelativeNumber-contents*
@@ -36,7 +36,7 @@ BUGS                                                        *RelativeNumberBugs*
 
 If you find a bug please post it on the issue tracker:
 
-    https://github.com/chilicuil/vim-relative-number/issues
+    https://github.com/chilicuil/relative-number.vim/issues
 
 ==============================================================================
 CONTRIBUTING                                        *RelativeNumberContributing*
@@ -45,7 +45,7 @@ I created this plugin while waiting for a meeting, it does what I need, if you
 require additional features please fork the project and send me your pull
 request.
 
-GitHub: http://github.com/chilicuil/vim-relative-number/
+GitHub: http://github.com/chilicuil/relative-number.vim/
 
 ==============================================================================
 CHANGELOG                                              *RelativeNumberChangelog*
