@@ -17,7 +17,7 @@ Installation
 
 - [Vundle](https://github.com/gmarik/vundle) way (recommended), add the following to your $HOME/.vimrc file:
 
-        Bundle 'chilicuil/relative-number.vim'
+        Bundle 'javier-lopez/relative-number.vim'
 
     And run inside of vim:
 
@@ -25,7 +25,7 @@ Installation
 
 - [NeoBundle](https://github.com/Shougo/neobundle.vim) way:
 
-        NeoBundle 'chilicuil/relative-number.vim'
+        NeoBundle 'javier-lopez/relative-number.vim'
 
     And run inside of vim:
 
@@ -33,7 +33,7 @@ Installation
 
 - [Pathogen](https://github.com/tpope/vim-pathogen) way:
 
-        $ git clone https://github.com/chilicuil/relative-number.vim.git ~/.vim/bundle/relative-number.vim
+        $ git clone https://github.com/javier-lopez/relative-number.vim.git ~/.vim/bundle/relative-number.vim
 
 - **Manual** (simplest if you've never heard of vundle or pathogen), download the zip file generated from github and extract it to $HOME/.vim
 
