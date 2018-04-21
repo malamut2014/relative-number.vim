@@ -11,7 +11,6 @@ endif
 
 " Default configuration {{{1
 set number
-set relativenumber
 if !exists('g:relative_number_map') | let g:relative_number_map = '<Leader>n' | endif
 
 " Commands & Mappings {{{1
